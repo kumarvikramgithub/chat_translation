@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847646863720",
+    "project_id": "vmntr-43212",
+    "storage_bucket": "vmntr-43212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847646863720:android:ad1274c13f5566c3e0e6dd",
+        "android_client_info": {
+          "package_name": "com.example.vmntr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847646863720-nt7ri9ldkqsibs0tth8rsfivvi62sjr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPNvhJKresIw10PKA0bo8yN8SDw7g3EVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847646863720-nt7ri9ldkqsibs0tth8rsfivvi62sjr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
