@@ -89,7 +89,7 @@ public class NormalChatActivity extends AppCompatActivity {
         }else{binding.userNames.setText(userName);}
         String profilePic=getIntent().getStringExtra("image");
         String time=getIntent().getStringExtra("time");
-        binding.lastSeen.setText("Last seen by "+time);
+        //binding.lastSeen.setText("Last seen by "+time);
         Picasso.get().load(profilePic).placeholder(R.drawable.ic_user).into(binding.profileImage);
 
 

@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text="last seen"
+                android:text=""
                 android:textColor="#FFFFFF" />
         </LinearLayout>
 
