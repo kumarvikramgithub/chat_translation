@@ -15,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.vmntr.Adapters.NormalUserAdapters;
 import com.example.vmntr.Adapters.UserAdapters;
 import com.example.vmntr.Models.Users;
 import com.example.vmntr.R;
@@ -53,7 +54,7 @@ public class OwnFragment extends Fragment {
             }
         }
 
-        UserAdapters chatUserAdapter =new UserAdapters(getContext(),list);
+        NormalUserAdapters chatUserAdapter =new NormalUserAdapters(getContext(),list);
         binding.chatRecyclerView.setAdapter(chatUserAdapter);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         binding.chatRecyclerView.setLayoutManager(layoutManager);

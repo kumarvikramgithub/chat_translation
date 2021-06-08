@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#DAD8D8"
     android:orientation="vertical"
-    tools:context=".ChatActivity">
+    tools:context=".NormalChatActivity">
 
     <LinearLayout
         android:id="@+id/toolbar"
@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed-light"
-                android:text=""
+                android:text="last seen"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
 
