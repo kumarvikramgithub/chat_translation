@@ -280,4 +280,5 @@ public class ChatActivity extends AppCompatActivity {
 
         return connected;
     }
+    //trying git
 }
