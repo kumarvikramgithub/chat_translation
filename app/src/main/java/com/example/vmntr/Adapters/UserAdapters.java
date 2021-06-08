@@ -46,7 +46,7 @@ public class UserAdapters extends RecyclerView.Adapter<UserAdapters.UserViewHold
         Picasso.get().load(models.getProfileImage()).placeholder(R.drawable.ic_user).into(holder.binding.profileImage);
         holder.binding.userName.setText(models.getName());
         FirebaseDatabase.getInstance().getReference().child("PalChat")
-                .child(models.getUserId().concat(FirebaseAuth.getInstance().getUid()))
+                .child(FirebaseAuth.getInstance().getUid().concat(models.getUserId()))
                 .child("message").orderByChild("timestamp").limitToLast(1).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
