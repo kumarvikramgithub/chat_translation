@@ -50,12 +50,9 @@ public class MessagesAdapters extends RecyclerView.Adapter {
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         MessageModels message=messages.get(position);
         int reactions[]=new int[]{
-                R.drawable.ic_plus,
-                R.drawable.ic_rose,
                 R.drawable.ic_sad,
                 R.drawable.ic_smile,
                 R.drawable.ic_sunflower,
-                R.drawable.ic_balloons,
                 R.drawable.ic_birthday_cake,
                 R.drawable.ic_smiling,
                 R.drawable.ic_angry,
@@ -67,7 +64,6 @@ public class MessagesAdapters extends RecyclerView.Adapter {
                 R.drawable.ic_laughing,
                 R.drawable.ic_love,
                 R.drawable.ic_thinking,
-                R.drawable.ic_tulip,
 
         };
         ReactionsConfig config = new ReactionsConfigBuilder(context)
@@ -115,6 +111,7 @@ public class MessagesAdapters extends RecyclerView.Adapter {
                     return false;
                 }
             });
+
         }else{
             ReceiveViewHolder viewHolder=(ReceiveViewHolder) holder;
             viewHolder.binding.receiverMessage.setText(message.getMessage());

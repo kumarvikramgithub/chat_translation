@@ -21,7 +21,7 @@
             android:layout_gravity="center"
             android:layout_margin="12dp"
             android:layout_weight="1"
-            android:text="Settings"
+            android:text="Profile"
             app:elevation="12dp" />
 
         <Button
@@ -59,7 +59,7 @@
             android:elevation="10dp"
             android:letterSpacing="0.1"
             android:padding="10dp"
-            android:text="Google" />
+            android:text="Intelligent Chat" />
 
         <Button
             android:id="@+id/ownApiBtn"
@@ -71,7 +71,7 @@
             android:elevation="10dp"
             android:letterSpacing="0.1"
             android:padding="10dp"
-            android:text="Self Made" />
+            android:text="Normal Chat" />
     </LinearLayout>
 
     <FrameLayout
